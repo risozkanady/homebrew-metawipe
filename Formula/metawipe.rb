@@ -1,24 +1,24 @@
 class Metawipe < Formula
   desc "Strip metadata from images, HEIC, videos, PDFs and Office/OpenDocument files"
   homepage "https://github.com/risozkanady/metawipe"
-  version "0.3.1b3"
+  version "0.3.1b4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/risozkanady/metawipe/releases/download/v0.3.1b3/metawipe-0.3.1b3-macos-arm64.tar.gz"
-      sha256 "ddd253a35727b353f0b2e52ea917b2ea7515cc112eeb4fef6a80585c8e2d4ba4"
+      url "https://github.com/risozkanady/metawipe/releases/download/v0.3.1b4/metawipe-0.3.1b4-macos-arm64.tar.gz"
+      sha256 "199db647da0d0be040bd63e973581d9f06d5bbfd9ff4b1e9810592d576267a10"
     end
     on_intel do
-      url "https://github.com/risozkanady/metawipe/releases/download/v0.3.1b3/metawipe-0.3.1b3-macos-x86_64.tar.gz"
-      sha256 "1e11500473c460d746fd952fa8f5605e6ac7c293955d2eda6d0ba512c126c2b9"
+      url "https://github.com/risozkanady/metawipe/releases/download/v0.3.1b4/metawipe-0.3.1b4-macos-x86_64.tar.gz"
+      sha256 "aa900746a6ecfc8ed8983e8f712ec907287b688ef70266c5680b4dd7d6bd091a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/risozkanady/metawipe/releases/download/v0.3.1b3/metawipe-0.3.1b3-linux-x86_64.tar.gz"
-      sha256 "d648c4cebae12dd530e76ddab61590b85a0da4b0b245bc6cf7f2a64408b716a5"
+      url "https://github.com/risozkanady/metawipe/releases/download/v0.3.1b4/metawipe-0.3.1b4-linux-x86_64.tar.gz"
+      sha256 "e1f43d8a1db65646c9dccd03daa957a818a8489040e4bc00717fa8ad9de3aeb9"
     end
   end
 
